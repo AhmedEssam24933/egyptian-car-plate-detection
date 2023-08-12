@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['car-plate']
+
+roboflow:
+  workspace: ahmad-essam-gvgib
+  project: car-plate-detection-dc1vu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ahmad-essam-gvgib/car-plate-detection-dc1vu/dataset/1
